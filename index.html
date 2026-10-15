@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Autonomic Reflexes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Schibsted+Grotesk:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="wrap">
+  <div class="top">
+    <div>
+      <h1>Autonomic reflexes</h1>
+      <p>Three reflexes from Chapter 13, step by step. Make a prediction first, then watch what happens.</p>
+    </div>
+    <div class="speed">Speed <span class="seg2" role="group" aria-label="Animation speed"><button type="button" data-speed="1" aria-pressed="true">Normal</button><button type="button" data-speed="2" aria-pressed="false">Slow</button></span></div>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Reflex">
+    <button role="tab" data-tab="bp" aria-selected="true"><span class="n">1</span>Blood pressure</button>
+    <button role="tab" data-tab="pupil" aria-selected="false"><span class="n">2</span>Pupillary light reflex</button>
+    <button role="tab" data-tab="mict" aria-selected="false"><span class="n">3</span>Micturition</button>
+    <button role="tab" data-tab="quiz" aria-selected="false"><span class="n">4</span>Test yourself</button>
+  </nav>
+</header>
+
+<main class="wrap" id="main">
+  <section class="quiz-tab" id="scene-quiz" hidden>
+    <div class="qz-intro">
+      <h2>Test yourself: Autonomic reflexes</h2>
+      <p class="lead">Blood pressure, pupillary light reflex and micturition. One question at a time, with feedback and page references.</p>
+    </div>
+    <div id="app" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <p class="credit">Source: Klein BG, ed. <strong>Cunningham’s</strong> Textbook of Veterinary Physiology. 6th ed. Chapters 13 and 14.</p>
+  <p class="credit">Created by <strong>Dr. Khalid Abdul Majeed</strong>, Department of Physiology, UVAS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
